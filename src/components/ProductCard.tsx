@@ -5,7 +5,7 @@ import { ShoppingCartIcon } from '@heroicons/react/24/outline'
 import toast from 'react-hot-toast'
 import { Product } from '@/services/api'
 
-export default function ProductCard({ id, title, price, image, description, rating }: Product) {
+export default function ProductCard({  title, price, image, description, rating }: Product) {
   const addToCart = () => {
     // TODO: Implement cart functionality
     toast.success('Added to cart!')
